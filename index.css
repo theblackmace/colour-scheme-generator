@@ -1,0 +1,85 @@
+/* layout */
+
+html, body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 360px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.color-schemes {
+    display: flex;
+}
+
+.color-strip {
+    width: 72px;
+}
+
+#strip1{
+    height: 300px;
+    background: #F55A5A;
+}
+
+#strip2{
+    height: 300px;
+    background: #2B283A;
+}
+
+#strip3{
+    height: 300px;
+    background: #FBF3AB;
+}
+
+#strip4{
+    height: 300px;
+    background: #AAD1B6;
+}
+
+#strip5{
+    height: 300px;
+    background: #A626D3;
+}
+
+
+/* Elements */
+
+select {
+    margin-right: 3px;
+    margin-left: 3px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+}
+
+
+/* Typography */
+
+p {
+    font-size: 10px;
+}
